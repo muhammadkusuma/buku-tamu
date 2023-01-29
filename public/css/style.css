@@ -1,0 +1,69 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Slab", serif;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-image: url("/img/bg.jpg");
+}
+
+@media (max-width: 768px) {
+  .logouin {
+    display: none;
+  }
+  .logosi {
+    display: none;
+  }
+}
+nav {
+  background-color: #4B56D2;
+}
+nav .container-md a {
+  color: #F1F6F5;
+}
+nav .container-md a:hover {
+  color: #82C3EC;
+}
+nav .container-md .btn {
+  background-color: #F1F6F5;
+  color: #4B56D2;
+}
+nav .container-md .btn:hover {
+  background-color: #82C3EC;
+  color: #F1F6F5;
+}
+
+.jumbotron {
+  height: 100vh;
+}
+
+.navbar .container-md .navbar-toggler {
+  border: 0;
+}
+
+.navbar .container-md .navbar-toggler:focus {
+  outline: 0;
+}
+
+.navbar .container-md .navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xmzl;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar .container-md .navbar-brand {
+  font-weight: 500;
+}
+
+.desc-buku {
+  text-align: justify;
+}
+
+.row-kop {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+}/*# sourceMappingURL=style.css.map */
